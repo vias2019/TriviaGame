@@ -1,0 +1,165 @@
+body {
+    background-image: url("../images/background-resized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Background photo created by freepik - www.freepik.com</a> */
+    /* <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by freepik - www.freepik.com</a> */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding:5px;
+    background-color: aqua;
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(40, 105, 114);
+}
+
+.window {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-window {
+    background-color: orange;
+    width: 800px;
+    min-height: 550px;
+    margin-top: 200px;
+    margin-bottom: 27px;
+    padding: 20px;
+    border: 20px ridge #ce562e;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+    color: purple;
+}
+
+.time {
+    /* position: relative; */
+    font-size: 25px;
+    text-align: center;
+}
+
+#time-remaining {
+    /* position: absolute; */
+    /* left:35%;  */
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Noto Serif', serif;
+    display: inline;
+}
+
+#seconds {
+    /* position: absolute; */
+    /* left: 62%; */
+    color: blue;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Noto Serif', serif;
+    display: inline;
+    font-weight: bold;
+}
+
+#question {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Noto Serif', serif;
+}
+
+#correct{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Noto Serif', serif;
+}
+
+#nope {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Noto Serif', serif;
+}
+
+.answer {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Noto Serif', serif;
+}
+
+.answers {
+    text-align: center;
+    line-height: 0.5em;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#answer1:hover {
+    color: blueviolet;
+}
+
+#answer2:hover {
+    color: blueviolet;
+}
+
+#answer3:hover {
+    color: blueviolet;
+}
+
+#answer4:hover {
+    color: blueviolet;
+}
+
+button {
+    background-color: #d7d7ff;
+    font-size: 25px;
+    width: 33.3%;
+    text-align: center;
+    margin-left: 33.3%;
+}
+
+.result {
+    text-align: center;
+}
+
+.result span{
+    font-size: 30px;
+    line-height: 1.5em;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#start-over {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+}
+#start-over:hover {
+    color: blueviolet;
+}
+
+#time-out {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Noto Serif', serif;
+}
+
+img {
+    width: 250px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#how-did {
+    font-size: 20px;
+    color: purple;
+}
