@@ -146,7 +146,7 @@ var randomArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 var correctAnswers = 0;
 var incorrectAnswers = 0;
 var unanswered = 0;
-var timer = 10;
+var timer = 30;
 var interval;
 var numberArray = [];
 var userChoice;
@@ -160,7 +160,7 @@ function startOver() {
     correctAnswers = 0;
     incorrectAnswers = 0;
     unanswered = 0;
-    timer = 10;
+    timer = 30;
     interval = '';
     numberArray = [];
     userChoice = '';
@@ -196,7 +196,7 @@ function decrement() {
     $("#seconds").html(timer);
     if (timer <= 0) {
         stop();
-        timer = 10;
+        timer = 30;
         //questionCount++;
         unanswered++;
         $("#time-out").show();
@@ -248,6 +248,10 @@ function isGameFinished() {
         $("#correct-answer-value").html(correctAnswers);
         $("#incorrect-answer-value").html(incorrectAnswers);
         $("#unanswered-value").html(unanswered);
+        $("#correct-answer").show();
+        $("#incorrect-answer").show();
+        $("#unanswered").show();
+        $("#how-did").show();
         $(".result").show();
         $("#correct").hide();
         $("#nope").hide();
@@ -255,6 +259,7 @@ function isGameFinished() {
         $(".time").hide();
         $("#time-out").hide();
         $("img").hide();
+        $("#start-over").show();
         return true;
 
     } else { return false; }
@@ -273,7 +278,7 @@ function setOfAnswers(i) {
 
     randomAns();
     run();
-    timer = 10;
+    timer = 30;
     $("#seconds").html(timer);
     $("#question").html(results[randomArray[i]]["question"]);
     $("#answer1").html(results[randomArray[i]]["incorrect_answers"][numberArray[0]]);

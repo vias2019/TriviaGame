@@ -161,5 +161,9 @@ img {
 
 #how-did {
     font-size: 20px;
-    color: purple;
+    color: blue;
+}
+
+.hidden {
+    display: none;
 }
