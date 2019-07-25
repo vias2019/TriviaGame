@@ -16,3 +16,5 @@ There is an option to start the game over by clicking “Start Over” button.
 
 
 Good luck!
+
+Link to the site: https://vias2019.github.io/TriviaGame/
